@@ -1,0 +1,59 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# --- Jupyter / Notebooks ---
+.ipynb_checkpoints/
+**/logs/
+**/tensorboard/
+**/checkpoint/
+*.pt
+*.pth
+*.pkl
+*.h5
+
+# --- PyTorch / Deep Learning ---
+*.weights
+*.pb
+*.onnx
+*.tflite
+*.pt
+*.pth
+data/
+datasets/
+models/
+
+# --- Visual Studio Code ---
+.vscode/
+*.code-workspace
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
